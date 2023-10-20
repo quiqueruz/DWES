@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    background-color: #e0e9f0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #2980b9;
+    text-align: center;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #f0f0f0;
+    background-color: #21618C;
+    padding: 10px;
+}
+
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #2980b9;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos de las redes sociales en el pie de página */
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+}
+
+.redes-sociales li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.redes-sociales a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.redes-sociales a:hover {
+    text-decoration: underline;
+}
+
+.redes-sociales img {
+    width: 20px;
+    height: 20px;
+}
